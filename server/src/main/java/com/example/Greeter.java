@@ -14,6 +14,7 @@ public class Greeter {
 
   //TODO: Add javadoc comment
   public String greet(String someone) {
+	  int i = 1;
     return String.format("Hello, %s!", someone);
   }
 }
